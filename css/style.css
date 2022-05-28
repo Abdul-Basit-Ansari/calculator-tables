@@ -1,0 +1,439 @@
+html {
+    font-size: 62.5%;
+    background-color: rgb(65, 60, 60);
+}
+
+body {
+    background-position: right;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#box {
+    align-items: center;
+    margin-left: 40rem;
+    margin-top: 5rem;
+    position: absolute;
+    width: 40rem;
+    height: 70rem;
+    background-color: rgb(56, 63, 83);
+    border: 1rem solid gray;
+    border-radius: 3rem;
+}
+
+#form1 {
+    border: .2rem solid red;
+    padding: 4rem;
+    border-radius: 2rem;
+    overflow-y: auto;
+    text-align: right;
+    position: relative;
+    background-color: rgb(49, 41, 41);
+    height: 5rem;
+    width: 25rem;
+    margin-left: 3.2rem;
+    margin-top: 2rem;
+}
+
+#input1 {
+    overflow-y: auto;
+    display: inline;
+    border-radius: 0rem 2rem 2rem 0rem;
+    height: 7rem;
+    border: none;
+    font-size: 4rem;
+    text-align: right;
+    color: rgb(218, 97, 97);
+}
+
+#input2 {
+    overflow-y: auto;
+    display: inline;
+    border: none;
+    height: 7rem;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(218, 97, 97);
+}
+
+#input3 {
+    overflow-y: auto;
+    display: inline;
+    border-radius: 2rem 0rem 0rem 2rem;
+    border: none;
+    height: 7rem;
+    font-size: 4rem;
+    text-align: right;
+    color: rgb(218, 97, 97);
+}
+
+.btns {
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    position: absolute;
+}
+
+.btn {
+    margin: .3rem;
+    border-color: rgb(147, 207, 255);
+    border: .5rem solid rgb(147, 207, 255);
+    border-radius: 2rem;
+    height: 7.6rem;
+    width: 7.6rem;
+    font-size: 6rem;
+    cursor: pointer;
+}
+
+#add {
+    height: 16rem;
+    margin-left: -3.7rem;
+    position: absolute;
+}
+
+#z {
+    width: 16.2rem;
+}
+
+#equal {
+    height: 16rem;
+    position: absolute;
+}
+
+.n {
+    visibility: hidden;
+    height: 5rem;
+    width: 4rem;
+}
+
+.digit {
+    background-color: rgb(110, 102, 102);
+    color: rgb(73, 42, 38);
+    border-color: skyblue;
+}
+
+.image {
+    background-color: rgb(117, 24, 24);
+    border-color: rgb(147, 207, 255);
+}
+
+#img {
+    position: relative;
+    height: 5rem;
+    padding: 0%;
+}
+
+.bod {
+    background-color: rgb(37, 61, 109);
+    color: rgb(255, 133, 34);
+    border-color: rgb(175, 82, 6);
+}
+
+.eq {
+    background-color: rgb(145, 167, 69);
+    border-color: springgreen;
+}
+
+#c {
+    width: 32rem;
+    background-color: rgb(150, 45, 45);
+    border-color: rgb(182, 139, 139);
+    color: tomato;
+}
+
+.btns :hover {
+    transform: scale(1.1, .9);
+    transition: .2s;
+}
+
+.pbtn {
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    background-color: rgb(49, 29, 29);
+    color: rgb(73, 73, 119);
+    margin: .5rem 0rem 0rem 84.8%;
+    width: 19rem;
+    height: 5rem;
+}
+
+.pbtn2 {
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    background-color: rgb(49, 29, 29);
+    color: rgb(73, 73, 119);
+    margin: .5rem 0rem 0rem 67.8%;
+    width: 19rem;
+    height: 5rem;
+}
+
+@media (max-width:200px) and (min-width:0px) {
+    html {
+        font-size: 8%
+    }
+}
+
+@media(max-width:250px) and (min-width:200px) {
+    html {
+        font-size: 10%;
+    }
+}
+
+@media(max-width:300px) and (min-width:250px) {
+    html {
+        font-size: 12%;
+    }
+}
+
+@media(max-width:350px) and (min-width:300px) {
+    html {
+        font-size: 14%;
+    }
+}
+
+@media (max-width:400px) and (min-width:350px) {
+    html {
+        font-size: 16%;
+    }
+}
+
+@media (max-width:450px) and (min-width:400px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media (max-width:500px) and (min-width:450px) {
+    html {
+        font-size: 22%
+    }
+}
+
+@media (max-width:550px) and (min-width:500px) {
+    html {
+        font-size: 24%;
+    }
+}
+
+@media (max-width:600px) and (min-width:550px) {
+    html {
+        font-size: 26%
+    }
+}
+
+@media (max-width:650px) and (min-width:600px) {
+    html {
+        font-size: 28%
+    }
+}
+
+@media (max-width:700px) and (min-width:650px) {
+    html {
+        font-size: 30%
+    }
+}
+
+@media (max-width:750px) and (min-width:700px) {
+    html {
+        font-size: 33%
+    }
+}
+
+@media (max-width:800px) and (min-width:750px) {
+    html {
+        font-size: 36%
+    }
+}
+
+@media (max-width:850px) and (min-width:800px) {
+    html {
+        font-size: 39%
+    }
+}
+
+@media (max-width:900px) and (min-width:850px) {
+    html {
+        font-size: 42%
+    }
+}
+
+@media (max-width:950px) and (min-width:900px) {
+    html {
+        font-size: 45%
+    }
+}
+
+@media (max-width:1000px) and (min-width:950px) {
+    html {
+        font-size: 48%
+    }
+}
+
+@media (max-width:1050px) and (min-width:1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:1100px) and (min-width:1050px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+
+@media (max-width:1150px) and (min-width:1100px) {
+    html {
+        font-size: 54.5%;
+    }
+}
+
+@media (max-width:1200px) and (min-width:1150px) {
+    html {
+        font-size: 56.5%;
+    }
+}
+
+@media (max-width:1250px) and (min-width:1200px) {
+    html {
+        font-size: 58.5%;
+    }
+}
+
+@media (max-width:1300px) and (min-width:1250px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width:1350px) and (min-width:1300px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+
+/* page 2 code */
+
+#page2 {
+    display: none;
+}
+
+.h {
+    position: absolute;
+    margin: .5rem 0rem 2rem 3rem;
+    color: rgb(138, 106, 96);
+    font-size: 5rem;
+}
+
+#num {
+    position: relative;
+    background-color: rgb(37, 61, 109);
+    color: burlywood;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 90rem;
+}
+
+#tab {
+    background-color: rgb(138, 106, 96);
+    position: relative;
+    margin-top: -40rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+#box2 {
+    position: relative;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    height: 50rem;
+    padding: 4rem;
+    width: 93.2rem;
+    border: 1rem double black;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.p {
+    border-radius: 1rem;
+    height: 4rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: rgb(11, 13, 95);
+}
+
+.navbar {
+    position: relative;
+    height: 6rem;
+    background-color: rgba(124, 56, 11, 0.459);
+    border: .5rem solid black;
+}
+
+
+/* page 3 code */
+
+#page3 {
+    display: none;
+}
+
+.h2 {
+    position: absolute;
+    margin: .5rem 0rem 2rem 3rem;
+    color: rgb(138, 106, 96);
+    font-size: 5rem;
+}
+
+#name2 {
+    position: relative;
+    background-color: rgb(24, 43, 80);
+    color: rgb(212, 164, 100);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 90rem;
+}
+
+#select {
+    background-color: rgb(11, 13, 95);
+    color: aqua;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 100rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+#box3 {
+    position: relative;
+    margin-top: 6rem;
+    margin-left: 5rem;
+    height: 50rem;
+    padding: 4rem;
+    width: 102rem;
+    border: 1rem double rgb(11, 13, 95);
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.p2 {
+    font-size: 5rem;
+    color: rgb(11, 13, 95);
+}
+
+.navbar2 {
+    position: relative;
+    height: 6rem;
+    background-color: rgb(11, 13, 95);
+    border: .5rem solid black;
+}

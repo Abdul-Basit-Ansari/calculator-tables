@@ -1,0 +1,140 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/bg1.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Calculator</title>
+</head>
+
+
+
+
+
+<body>
+    <div id="page1">
+        <nav class="navbar">
+            <h1 class="h">CALCULATOR</h1>
+            <button id="tables" class="pbtn" onclick="tpage()">SEE TABLES </button>
+            <button id="case" class="pbtn2" onclick="spage()">Case Changer </button>
+        </nav>
+        <div id="box">
+            <form name="form" id="form1">
+                <span name="textview1" id="input1" class="val"></span>
+                <span name="textview2" id="input2" class="val"></span>
+                <span name="textview3" id="input3" class="val"></span>
+
+
+
+            </form>
+            <div class="btns">
+
+
+                <button class="btn image" onclick="back1()"><img alt="←" id="img"  src="img/img1.png"></button>
+
+                <button class="btn bod" onclick="divide('÷')" id="div">÷</button>
+                <button class="btn bod" onclick="multiplay('x')" id="mul">x</button>
+                <button class="btn bod" onclick="subtract('-')" id="sub">-</button>
+                <button class="btn digit" onclick="ins(7)" id="7">7</button>
+                <button class="btn digit" onclick="ins(8)" id="8">8</button>
+                <button class="btn digit" onclick="ins(9)" id="9">9</button>
+                <button class=" n"></button>
+                <button class="btn bod" onclick="addition('+')" id="add">+</button>
+                <button class="btn digit" onclick="ins(4)" id="4">4</button>
+                <button class="btn digit" onclick="ins(5)" id="5">5</button>
+                <button class="btn digit" onclick="ins(6)" id="6">6</button>
+                <button class=" n"></button>
+                <button class="btn digit" onclick="ins(1)" id="1">1</button>
+                <button class="btn digit" onclick="ins(2)" id="2">2</button>
+                <button class="btn digit" onclick="ins(3)" id="3">3</button>
+                <button class="btn eq" onclick="equal()" id="equal">=</button>
+                <button class="btn digit" onclick="zero()" id="z">0</button>
+                <button class="btn eq" onclick="ins('.')" id="dot">.</button>
+                <button class="btn" onclick="clean()" id="c">CLEAR</button>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="page2">
+        <nav class="navbar">
+
+            <button class=" pbtn" id="Calculator" onclick="cpage()">CALCULATOR</button>
+            <button id="case" class="pbtn2" onclick="spage()">Case Changer </button>
+            <div>
+                <h1 class="h">TABLES</h1>
+            </div>
+        </nav>
+        <div class="t">
+            <input type="number" name="num" placeholder="Enter A Number" id="num">
+            <input type="submit" value="Show Table" id="tab" onclick="table()">
+        </div>
+        <div id="box2">
+            <p class="p" id="1r"></p>
+            <p class="p" id="2r"></p>
+            <p class="p" id="3r"></p>
+            <p class="p" id="4r"></p>
+            <p class="p" id="5r"></p>
+            <p class="p" id="6r"></p>
+            <p class="p" id="7r"></p>
+            <p class="p" id="8r"></p>
+            <p class="p" id="9r"></p>
+            <p class="p" id="10r"></p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div id="page3">
+        <nav class="navbar2">
+            <button class=" pbtn" id="Calculator" onclick="cpage()">CALCULATOR</button>
+            <button id="tables" class="pbtn2" onclick="tpage()">SEE TABLES </button>
+            <div>
+                <h1 class="h2">S.T.R.I.N.G</h1>
+            </div>
+        </nav>
+        <div class="t2">
+            <form>
+                <input type="text" name="name" placeholder="Enter Any Name" id="name2" onFocus="this.style.backgroundColor='rgb(21, 37, 70)';" onBlur="this.style.backgroundColor='rgb(21, 53, 117)';">
+
+
+            </form>
+
+
+            <select name="select" id="select" onclick="str(document.getElementById('r'))">
+                <option value="1">CAPITIAL LETTERS</option>
+                <option value="2">Letters Reverse</option>
+                <option value="3">small letters</option>
+            </select>
+
+        </div>
+        <div id="box3">
+            <p class="p2" id="r"></p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
